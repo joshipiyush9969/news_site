@@ -1,0 +1,24 @@
+.buttonNav {
+  background-color: rgba(90, 119, 200, 0.5);
+  height: 2rem;
+  width: 3rem;
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  transition: 0.2s;
+  top: 1.5%;
+  left: 2%;
+  
+}
+.buttonNav:hover {
+  background-color: rgba(68, 90, 151, 0.5);
+  transition: 0.2s;
+  cursor:pointer;
+}
+.buttonText {
+  color: white;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,38 @@
+.contain {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+
+}
+.heading {
+  color: rgb(212, 212, 212);
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+  font-family: "Adamina";
+    margin-top: 1rem;
+}
+.image_container {
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  width: 50vw;
+  margin-block: 1.5rem;
+}
+
+.image_container > span {
+  color: rgb(186, 186, 186);
+  font-family: "Lora";
+}
+
+.description_container {
+  margin-block: 2rem;
+}
+.description {
+  color: rgb(212, 212, 212);
+  font-family: "Lora";
+  line-height: 1.7rem;
+  font-size: 1.1rem;
+
+}
