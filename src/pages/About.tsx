@@ -54,7 +54,7 @@ export function About() {
           <span>Find an issue with this page?</span>
           <a
             style={{ textDecoration: "none" }}
-            href="https://github.com"
+            href="https://github.com/joshipiyush9969/news_site/issues"
           >
             &nbsp;Fix it on GitHub
           </a>
