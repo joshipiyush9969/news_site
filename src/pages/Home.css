@@ -1,5 +1,6 @@
 .buttonNav {
   background-color: rgba(90, 119, 200, 0.5);
+  padding: 7px;
   height: 2rem;
   width: 3rem;
   border-radius: 10px;
@@ -9,16 +10,40 @@
   justify-content: center;
   position: fixed;
   transition: 0.2s;
-  top: 1.5%;
-  left: 2%;
-  
+  top: 4%;
+  left: 3%;
 }
 .buttonNav:hover {
   background-color: rgba(68, 90, 151, 0.5);
   transition: 0.2s;
-  cursor:pointer;
+  cursor: pointer;
+  
 }
 .buttonText {
   color: white;
   font-size: 0.8rem;
+}
+
+.search {
+  font-size: 0.8rem;
+
+  border: 2px solid rgba(116, 116, 116, 0.5);
+  padding: 5px;
+  transition: 0.2s;
+  position: fixed;
+  border-radius: 10px;
+  padding: 7px;
+  top: 4%;
+  right:3%
+}
+
+.search:hover {
+  background-color: rgba(68, 90, 151, 0.5);
+  border: 2px solid rgba(164, 186, 247, 0.5);
+  transition: 0.2s;
+}
+.search:focus {
+  outline: none !important;
+  background-color: rgba(68, 90, 151, 0.5);
+  border: 2px solid rgba(164, 186, 247, 0.5);
 }
